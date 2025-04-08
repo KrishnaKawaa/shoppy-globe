@@ -1,0 +1,131 @@
+.cart-container {
+    padding: 2rem;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .cart-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .cart-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .cart-card {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    transition: transform 0.2s ease;
+  }
+  
+  .cart-card:hover {
+    transform: scale(1.01);
+  }
+  
+  .cart-card img {
+    width: 150px;
+    object-fit: cover;
+  }
+  
+  .cart-content {
+    padding: 1rem;
+    flex: 1;
+  }
+  
+  .cart-content h3 {
+    margin: 0 0 0.5rem;
+    font-size: 1.3rem;
+  }
+  
+  .cart-content p {
+    font-size: 0.95rem;
+    color: #666;
+    margin: 0.5rem 0;
+  }
+  
+  .cart-content strong {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    color: #222;
+  }
+  
+  .cart-controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+  
+  .qty-buttons {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .qty-buttons button {
+    padding: 0.3rem 0.8rem;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .qty-buttons span {
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  .remove-btn {
+    background-color: #dc3545;
+    padding: 0.3rem 0.8rem;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .clear-cart-btn {
+    display: block;
+    margin: 2rem auto 0;
+    background-color: #ff9800;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .empty-cart {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #888;
+    margin-top: 3rem;
+  }
+  .more-btn {
+    margin-top: 1rem;
+    padding: 0.4rem 1rem;
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .more-btn:hover {
+    background-color: #009cb0;
+  }
+  
